@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.form-content {
+  display: flex;
+  padding: 50px;
+}
+
+.img-content {
+  display: flex;
+}
+
+.login-items {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0px;
+  padding: 20px 0px;
+}
+
+p {
+  padding-bottom: 50px;
+}
+
+.form-items {
+  flex-direction: column;
+}
+.form-Wrapper {
+  flex-direction: column;
+}
+
+select {
+  height: 46px;
+  width: 75%;
+}
+
+input {
+  padding-top: 50px;
+  gap: 50px;
+  width: 37%;
+  height: 46px;
+  outline: none;
+  padding: 10px;
+}
+
+button {
+  width: 160px;
+  height: 46px;
+  background-color: #6e38f7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-left: 0px;
+}
+
+textarea {
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  resize: none;
+}
+
+/* 2-task */
+
+.section {
+  width: 80%;
+  padding: 100px;
+  justify-content: space-between;
+}
+
+.section img {
+  width: 80%;
+  height: 100%;
+  margin: 20px;
+  text-align: end;
+  display: flex;
+  justify-content: space-between;
+  justify-content: end;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text input {
+  padding-left: 20px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.text button {
+  gap: 20px;
+  margin: 0.5px;
+}
